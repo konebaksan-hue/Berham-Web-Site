@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(255, 255, 255);
+    height: 720px;
+    font-family:'Courier New', Courier, monospace ;
+    align-content: center;
+}
+.vpanel{
+    border: 8px solid rgb(223, 146, 90);
+    position: absolute;
+    top: 0px;
+    width: 1505px;
+    height: 100px;
+    left: 0;
+background-color: rgb(223, 146, 90);
+border-radius: 7px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    z-index: 99;
+    top: 10px;
+    left: 500px;
+        text-align: center;
+       font-family:'Courier New', Courier, monospace ;
+}
+
+
+
+
+
+iframe{   
+    border-radius: 25px;   
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.gh{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

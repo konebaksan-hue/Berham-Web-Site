@@ -1,0 +1,99 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    height: 720px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.load{
+    border: 10px solid rgb(223, 146, 90);;
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+margin-left: auto;
+margin-right: auto;
+animation-name: load;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+.vpanel{
+    border: 8px solid rgb(223, 146, 90);
+    position: absolute;
+    top: 0px;
+    width: 1505px;
+    height: 100px;
+    left: 0;
+background-color: rgb(223, 146, 90);
+border-radius: 7px;
+
+
+}
+
+
+@keyframes load{
+
+0%{
+
+}
+
+50%{
+    
+    border-radius: 100%;
+    transform: rotate(180deg);
+    transform: rotate3d(90,45,0,180deg);
+    
+}
+
+90%{
+border-radius: 0%;
+    transform: rotate(180deg);
+    
+
+}
+
+100%{
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
